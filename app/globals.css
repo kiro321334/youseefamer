@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 76px;
+}
+body {
+  @apply bg-bg text-white font-sans antialiased;
+}
+@layer components {
+  .h2 {
+    @apply text-3xl font-bold uppercase tracking-tight md:text-4xl;
+  }
+  .sub {
+    @apply mt-2 max-w-xl text-sm text-white/60 md:text-base;
+  }
+  .card {
+    @apply rounded-2xl border border-line bg-panel;
+  }
+  .btn {
+    @apply inline-flex w-full items-center justify-center gap-2 rounded-xl px-6 py-4 text-sm font-bold transition duration-300 hover:-translate-y-0.5 md:w-auto;
+  }
+  .btn-g {
+    @apply btn text-bg shadow-[0_10px_30px_-10px_rgba(255,210,63,.7)];
+    background-image: linear-gradient(180deg, #ffe26a, #f0b800);
+  }
+  .btn-d {
+    @apply btn border border-line bg-panel2 text-white hover:border-gold/60;
+  }
+  .chip {
+    @apply shrink-0 whitespace-nowrap rounded-lg border border-line bg-panel px-4 py-2 text-xs font-bold text-white/70 transition hover:text-white;
+  }
+  .chip[aria-selected="true"] {
+    @apply border-transparent bg-gold text-bg;
+  }
+  .tag {
+    @apply rounded-md bg-gold px-2 py-1 text-[10px] font-extrabold uppercase tracking-wider text-bg;
+  }
+}
+.noscroll::-webkit-scrollbar {
+  display: none;
+}
+.noscroll {
+  scrollbar-width: none;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0.3;
+  }
+}
+@keyframes glow {
+  50% {
+    box-shadow: 0 12px 44px -4px rgba(255, 210, 63, 0.85);
+  }
+}
+@keyframes zoom {
+  from {
+    transform: scale(1.08);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes sheet {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.fade-up {
+  opacity: 0;
+  animation: fadeUp 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+.d1 {
+  animation-delay: 0.12s;
+}
+.d2 {
+  animation-delay: 0.24s;
+}
+.d3 {
+  animation-delay: 0.36s;
+}
+.d4 {
+  animation-delay: 0.5s;
+}
+.blink {
+  animation: blink 1.4s infinite;
+}
+.glow {
+  animation: glow 2.6s infinite;
+}
+.hero-img {
+  animation: zoom 1.8s ease-out both;
+}
+dialog[open] {
+  animation: sheet 0.35s ease-out;
+}
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: fadeUp linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}

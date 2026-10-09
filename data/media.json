@@ -1,0 +1,451 @@
+{
+  "clinics": [
+    {
+      "t": "video",
+      "src": "/projects/clinics/1.mp4",
+      "w": 1920,
+      "h": 1080,
+      "poster": "/projects/clinics/1-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/2.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/clinics/2-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/3.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/clinics/3-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/4.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/clinics/4-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/5.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/clinics/5-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/6.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/clinics/6-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/7.mp4",
+      "w": 360,
+      "h": 640,
+      "poster": "/projects/clinics/7-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/8.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/clinics/8-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/9.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/clinics/9-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/10.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/clinics/10-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/11.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/clinics/11-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clinics/12.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/clinics/12-poster.jpg"
+    }
+  ],
+  "clip": [
+    {
+      "t": "video",
+      "src": "/projects/clip/1.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/clip/1-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/clip/2.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/clip/2-poster.jpg"
+    }
+  ],
+  "events": [
+    {
+      "t": "video",
+      "src": "/projects/events/1.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/events/1-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/2.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/events/2-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/3.mp4",
+      "w": 1280,
+      "h": 720,
+      "poster": "/projects/events/3-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/4.mp4",
+      "w": 1280,
+      "h": 720,
+      "poster": "/projects/events/4-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/5.mp4",
+      "w": 1280,
+      "h": 720,
+      "poster": "/projects/events/5-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/6.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/events/6-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/7.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/events/7-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/8.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/events/8-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/9.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/events/9-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/10.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/events/10-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/11.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/events/11-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/12.mp4",
+      "w": 966,
+      "h": 1718,
+      "poster": "/projects/events/12-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/13.mp4",
+      "w": 1916,
+      "h": 1078,
+      "poster": "/projects/events/13-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/events/14.mp4",
+      "w": 1920,
+      "h": 1080,
+      "poster": "/projects/events/14-poster.jpg"
+    }
+  ],
+  "media": [
+    {
+      "t": "video",
+      "src": "/projects/media/1.mp4",
+      "w": 464,
+      "h": 832,
+      "poster": "/projects/media/1-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/media/2.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/media/2-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/media/3.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/media/3-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/media/4.mp4",
+      "w": 1080,
+      "h": 1918,
+      "poster": "/projects/media/4-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/media/5.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/media/5-poster.jpg"
+    },
+    {
+      "t": "image",
+      "src": "/projects/media/7.png",
+      "w": 1284,
+      "h": 2778
+    },
+    {
+      "t": "video",
+      "src": "/projects/media/8.mp4",
+      "w": 576,
+      "h": 1024,
+      "poster": "/projects/media/8-poster.jpg"
+    }
+  ],
+  "podcast": [
+    {
+      "t": "video",
+      "src": "/projects/podcast/1.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/podcast/1-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/podcast/2.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/podcast/2-poster.jpg"
+    }
+  ],
+  "reel-content": [
+    {
+      "t": "video",
+      "src": "/projects/reel-content/1.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/reel-content/1-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/reel-content/2.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/reel-content/2-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/reel-content/3.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/reel-content/3-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/reel-content/4.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/reel-content/4-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/reel-content/5.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/reel-content/5-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/reel-content/6.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/reel-content/6-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/reel-content/7.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/reel-content/7-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/reel-content/8.mp4",
+      "w": 1080,
+      "h": null,
+      "poster": "/projects/reel-content/8-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/reel-content/9.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/reel-content/9-poster.jpg"
+    }
+  ],
+  "social-ads": [
+    {
+      "t": "video",
+      "src": "/projects/social-ads/1.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/social-ads/1-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/2.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/social-ads/2-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/3.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/social-ads/3-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/4.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/social-ads/4-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/5.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/social-ads/5-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/6.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/social-ads/6-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/7.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/social-ads/7-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/8.mp4",
+      "w": 970,
+      "h": 1724,
+      "poster": "/projects/social-ads/8-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/9.mp4",
+      "w": 1920,
+      "h": 1080,
+      "poster": "/projects/social-ads/9-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/10.mp4",
+      "w": 1024,
+      "h": 576,
+      "poster": "/projects/social-ads/10-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/social-ads/11.mp4",
+      "w": 576,
+      "h": 1024,
+      "poster": "/projects/social-ads/11-poster.jpg"
+    }
+  ],
+  "store": [
+    {
+      "t": "video",
+      "src": "/projects/store/1.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/store/1-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/store/2.mp4",
+      "w": 1080,
+      "h": 1920,
+      "poster": "/projects/store/2-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/store/3.mp4",
+      "w": 720,
+      "h": 1280,
+      "poster": "/projects/store/3-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/store/4.mp4",
+      "w": 1280,
+      "h": 720,
+      "poster": "/projects/store/4-poster.jpg"
+    },
+    {
+      "t": "video",
+      "src": "/projects/store/5.mp4",
+      "w": 1280,
+      "h": 720,
+      "poster": "/projects/store/5-poster.jpg"
+    }
+  ]
+}
