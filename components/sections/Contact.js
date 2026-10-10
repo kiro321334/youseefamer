@@ -66,7 +66,15 @@ const socials = [
     ),
   },
 ];
-
+// نفس رقم الواتساب، بأرقام بس (بدون + أو مسافات)
+const waNumber = String(site.whatsapp || site.phone || "").replace(/\D/g, "");
+// يعرض الرقم بشكل مقروء، مثال: +20 100 123 4567
+const prettyNumber =
+  waNumber.startsWith("20") && waNumber.length === 12
+    ? `+20 ${waNumber.slice(2, 5)} ${waNumber.slice(5, 8)} ${waNumber.slice(8)}`
+    : waNumber
+      ? `+${waNumber}`
+      : "";
 export default function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-xl px-5 py-14 text-center">
@@ -85,21 +93,16 @@ export default function Contact() {
           <Icon n="chat" size={18} /> Book on WhatsApp{" "}
           <Icon n="arrow" size={18} />
         </a>
-        <div className="grid grid-cols-2 gap-3">
-          {site.phone && (
-            <a href={`tel:${site.phone}`} className="btn-d gap-2">
-              <Icon n="phone" size={16} className="text-gold" />
-              Call
-            </a>
-          )}
-          <a
-            href={`mailto:${site.email}`}
-            className={`btn-d gap-2 ${site.phone ? "" : "col-span-2"}`}
-          >
-            <Icon n="mail" size={16} className="text-gold" />
-            Email
+
+        {waNumber && (
+          <a href={`tel:+${waNumber}`} className="btn-d w-full gap-2">
+            <Icon n="phone" size={18} className="text-gold" />
+            <span>Call</span>
+            <span dir="ltr" className="font-semibold text-gold">
+              {prettyNumber}
+            </span>
           </a>
-        </div>
+        )}
       </div>
 
       <div className="mt-8 flex items-center justify-center gap-3">
